@@ -74,6 +74,7 @@ nav {
 }
 
 .logo {
+    border: 1px solid red;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -142,7 +143,7 @@ header {
 
 .info h2 {
     text-align: center;
-    border: 1px solid red;;
+    border: 1px solid red;
     font-size: 24px;
     font-weight: 900;
     color: #1f2937;
@@ -170,4 +171,39 @@ header {
 .info-item p {
     text-align: center;
     margin-top: 10px;
+}
+
+/* || Quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 90px 0 70px 0;
+}
+
+.quote div {
+    border: 1px solid red;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote blockquote {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+    color: #3a3f46;
+}
+
+.quote p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* || CTA section */
+
+.cta-container {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #3882f6;
 }
