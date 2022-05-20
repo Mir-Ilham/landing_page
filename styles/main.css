@@ -49,8 +49,11 @@ table {
 
 /* || Generic*/
 
-body {
+* {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -89,4 +92,44 @@ nav {
     color: #e5e7eb;
     padding: 3px 5px;
     border: 1px solid red;
+}
+
+/* || Hero Content */
+
+.hero {
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 980px;
+    display: flex;
+    gap: 10px;
+}
+
+.hero-info h1 {
+    border: 1px solid red;
+    font-size: 38px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-info p {
+    border: 1px solid red;
+    line-height: 1.25;
+    margin-top: 10px;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.hero-info button {
+    margin-top: 70px;
+    color: #f9faf8;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 40px;
+    background-color: #3882f6;
+}
+
+.hero-img {
+    width: 450px;
 }
