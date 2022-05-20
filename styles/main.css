@@ -71,6 +71,7 @@ nav {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -87,6 +88,10 @@ nav {
     padding: 3px 5px;
 }
 
+.nav-links a:hover {
+    border-bottom: 1px solid #e5e7eb;
+}
+
 /* || Hero Content */
 
 header {
@@ -99,7 +104,7 @@ header {
     margin-top: 70px;
     width: 980px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero-info h1 {
@@ -110,7 +115,7 @@ header {
 
 .hero-info p {
     line-height: 1.25;
-    margin-top: 10px;
+    margin-top: 30px;
     color: #e5e7eb;
     font-size: 14px;
 }
@@ -123,6 +128,12 @@ header {
     border-radius: 5px; 
     padding: 10px 40px;
     background-color: #3882f6;
+}
+
+.hero-info button:hover {
+    cursor: pointer;
+    color: #3882f6;
+    background-color: #f9faf8;
 }
 
 .hero-img {
@@ -149,16 +160,26 @@ header {
 
 .info-item {
     width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.info-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .info-item img {
-    border-radius: 10px;
     width: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
 }
 
 .info-item p {
     text-align: center;
     margin-top: 10px;
+    padding: 10px;
 }
 
 /* || Quote section */
@@ -221,6 +242,11 @@ header {
     border: 2px solid #e5e7eb;
     border-radius: 5px;
     background-color: #3882f6;
+}
+
+.cta button:hover {
+    color:#3882f6;
+    background-color: #e5e7eb;
 }
 
 /* || Footer */
